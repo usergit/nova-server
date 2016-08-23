@@ -1,4 +1,4 @@
-Building an iframe for the client­side and having that talk cross­domain to the Nova servers
+Building an iframe for the client­side and having that talk cross­domain to Nova servers
 - to install
     - download to your local machine from the git repo
     - do npm install from the root directory, this will install all the required modules
