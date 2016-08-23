@@ -1,0 +1,27 @@
+{
+  "name": "nova",
+  "version": "1.0.0",
+  "description": "coding challenge",
+  "main": "app.js",
+  "scripts": {
+    "start": "node main.js",
+    "start-watch": "pm2 start app.js --watch",
+    "stop": "pm2 stop all",
+    "restart": "pm2 restart all app.js --watch",
+    "deleteAll": "pm2 delete all",
+    "showLogs": "pm2 logs",
+    "test": "node tests/routeTest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-validator": "^2.20.8",
+    "pm2": "^1.1.3",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "supertest": "^2.0.0"
+  }
+}
